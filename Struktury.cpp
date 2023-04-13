@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-struct samochód
+struct samochod
 {
     string model;
     string wlasciciel;
@@ -13,7 +13,7 @@ struct samochód
 int main()
 {
     const int ilosc = 3;
-    samochód samochody[ilosc];
+    samochod samochody[ilosc];
 
     for (int i = 0; i < ilosc; i++)
     {
